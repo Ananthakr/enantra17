@@ -98,8 +98,8 @@ html,body{
   height:768px;
   display:inline-block;
   background-color:#6d6f71;
-  background: -webkit-linear-gradient(rgba(109,111,113,1),rgba(230,231,232,0.7)), url("https://assets.entrepreneur.com/content/3x2/1300/20160321103826-shutterstock-217119211.jpeg");
-  background: linear-gradient(rgba(109,111,113,1),rgba(230,231,232,0.7)), url("https://assets.entrepreneur.com/content/3x2/1300/20160321103826-shutterstock-217119211.jpeg");
+  background: -webkit-linear-gradient(rgba(109,111,113,1),rgba(230,231,232,0.6)), url("https://assets.entrepreneur.com/content/3x2/1300/20160321103826-shutterstock-217119211.jpeg");
+  background: linear-gradient(rgba(109,111,113,1),rgba(230,231,232,0.6)), url("https://assets.entrepreneur.com/content/3x2/1300/20160321103826-shutterstock-217119211.jpeg");
   position: relative;
   background-size: cover;
   background-position: center;
