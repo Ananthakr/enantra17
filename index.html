@@ -7,6 +7,7 @@
   <meta content="utf-8" http-equiv="encoding">
   <meta name="author" content="Enantra Tech">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <style>
     img.speaker {
       clip-path: url(#card);
@@ -135,9 +136,9 @@
         </div>
       </div>
       <div class="m-row-2">
-        <div class="menu-item mi-3" id="mi-3">
-          <h4 class="menu-title"><a href="#sixdegree">Six degrees</a></h4>
-        </div>
+        <a href="#sixdegree" class="menu-item mi-3" id="mi-3">
+          <h4 class="menu-title">Six degrees</h4>
+        </a>
         <div class="menu-item mi-4" id="mi-4">
           <h4 class="menu-title">Runway</h4>
         </div>
@@ -166,25 +167,83 @@
     </div>
   </section>
   <section id="sixdegree">
+    <div class="speakers-title">
+        <h3>Six Degree Talks</h3>
+    </div>
     <div class="speaker-list box">
       <div class="speaker-half box">
-        <img class="speaker one" />
-        <img class="speaker two" />
-        <img class="speaker three" />
+        <a href="#one"><img class="speaker" src="img/varun-500.jpg" width="200px" /></a>
+        <a href="#two"><img class="speaker" src="img/thyrocare.jpg" width="200px"/></a>
+        <a href="#three"><img class="speaker" src="img/ali-500.jpg" width="200px"/></a>
       </div>
       <div class="speaker-half box">
-        <img class="speaker four" />
-        <img class="speaker five" />
-        <img class="speaker soon" />
+        <a href="#four"><img class="speaker" src="img/soon-300.jpeg" width="200px"/></a>
+        <a href="#five"><img class="speaker" src="img/soon-300.jpeg" width="200px"/></a>
+        <a href="#six"><img class="speaker" src="img/soon-300.jpeg" width="200px"/></a>
       </div>
     </div>
   </section>
-  <svg width="0" height="0">
-    <defs>
-      <clipPath id="card" clipPathUnits="objectBoundingBox"></clipPath>
-    </defs>
-  </svg>
-
+  <!--modals for poping up-->
+  <div id="one" class="overlay">
+    <div class="popup">
+      <img class="sp-img" src="img/varun-500.jpg" width="150px">
+      <h2>Agarwal</h2>
+      <a class="close" href="#sixdegree">&times;</a>
+      <div class="content">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </div>
+    </div>
+  </div>
+  <div id="two" class="overlay">
+    <div class="popup">
+      <img class="sp-img" src="img/thyrocare.jpg" width="150px">
+      <h2>Vijay Varadaraj</h2>
+      <a class="close" href="#sixdegree">&times;</a>
+      <div class="content">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </div>
+    </div>
+  </div>
+  <div id="three" class="overlay">
+    <div class="popup">
+      <img class="sp-img" src="img/ali-500.jpg" width="150px">
+      <h2>Pambu Joe Alibaba</h2>
+      <a class="close" href="#sixdegree">&times;</a>
+      <div class="content">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </div>
+    </div>
+  </div>
+  <div id="four" class="overlay">
+    <div class="popup">
+      <img class="sp-img" src="img/soon-300.jpeg" width="150px">
+      <h2>Kanakaraj</h2>
+      <a class="close" href="#sixdegree">&times;</a>
+      <div class="content">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </div>
+    </div>
+  </div>
+  <div id="five" class="overlay">
+    <div class="popup">
+      <img class="sp-img" src="img/soon-300.jpeg" width="150px">
+      <h2>Kandhan@Kuhan</h2>
+      <a class="close" href="#sixdegree">&times;</a>
+      <div class="content">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </div>
+    </div>
+  </div>
+  <div id="six" class="overlay">
+    <div class="popup">
+      <img class="sp-img" src="img/soon-300.jpeg" width="150px">
+      <h2>Mohamad Faizaan</h2>
+      <a class="close" href="#sixdegree">&times;</a>
+      <div class="content">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </div>
+    </div>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
   <script src="js/viewport.js"></script>
   <script src="js/enantra.js"></script>
