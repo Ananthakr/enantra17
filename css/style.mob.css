@@ -1,0 +1,213 @@
+#one{
+  text-align:center;
+  font-size :45px;
+}
+#two{
+  text-align:center;
+  font-size:25px;
+}
+.dv{
+ border: 3px solid #07072f; 
+ background-color:#07072f;
+ color:white;
+ font-weight:normal;
+ padding:0px;
+ margin:3px;
+}
+#p1{
+  text-align: center;
+  font-size:20px;
+ }
+#three{
+  text-align:center;
+  font-size:20px;
+}
+#p1{
+  text-align: center;
+  font-size:20px;
+  
+}
+
+.container {
+  left:0;
+  top:0;
+  position: fixed;
+  width:100%;
+  max-width:350px;
+}
+.container ul {
+  list-style: none;
+  padding: 0;
+  background:#93c7d6;
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  border-radius:3px;
+  opacity:0;
+}
+
+li a {
+  padding:12px 0;
+  display: block;
+}
+
+li a:hover {
+  background: #6fabbc;
+}
+
+a {
+  color:#fff;
+  text-transform:uppercase;
+  text-decoration: none;
+}
+
+i {
+  top: 0;
+  left: 0;
+  padding: 2vh;
+  background: rgba(255,255,255,.75);
+  border-radius:3px;
+  font-size: 20px;
+  color:#6fabbc;
+}
+
+i:hover {
+  cursor:pointer;
+  background: rgba(255,255,255,.95);
+}
+
+.container ul {
+  text-align: justify;
+  color:#fff;
+  text-transform:uppercase;
+}
+
+ul.open {
+  max-height: 480px;
+  visibility: visible;
+  opacity:1;
+}
+
+.e {
+  text-align:center;
+  border:solid 3px #eeeeee;
+  margin:5px;
+  font-size:20px;
+}
+
+h3 {
+  text-align:center;
+  font-size:25px;
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+  float: left;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #555;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 6px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+a{
+  text-decoration:none;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #07072f;
+  position: relative;
+}
+
+ul.topnav li {
+  display: inline;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {
+  background-color: #555;
+}
+
+ul.topnav li:not(:first-child) {
+  display: none;
+}
+
+ul.topnav.pressed li:not(:first-child) {
+  display: block;
+}
+
+ul.topnav li.icon {
+  float: right;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+h2{
+  font-weight:500;
+  text-align:center;
+}
+.ig{
+  margin:0 auto;
+}
+img{
+  width:200px;
+  text-align:center;
+}
